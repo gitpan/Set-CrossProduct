@@ -2,4 +2,3 @@ CrossProduct.pm
 Makefile.PL
 MANIFEST
 t/00.load.t
-t/01.tuple.t
