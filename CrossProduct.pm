@@ -1,11 +1,11 @@
 package Set::CrossProduct;
-# $Id: CrossProduct.pm,v 1.3 2002/05/26 17:47:09 comdog Exp $
+# $Id: CrossProduct.pm,v 1.4 2002/08/12 13:33:08 comdog Exp $
 use strict;
 
 use subs qw();
 use vars qw( $VERSION );
 
-( $VERSION ) = q$Revision: 1.3 $ =~ m/ (\d+ \. \d+) /gx;
+( $VERSION ) = q$Revision: 1.4 $ =~ m/ (\d+ \. \d+) /gx;
 
 =head1 NAME
 
@@ -117,6 +117,9 @@ elements other array references.  The C<new> method will
 return undef in scalar context and the empty list in list
 context if you give it something different.
 
+You must have at least two sets, or the constructor will
+fail.
+
 =cut
 
 # The iterator object is a hash with these keys 
@@ -136,6 +139,8 @@ sub new
 	my( $class, $array_ref ) = @_;
 	
 	return unless ref $array_ref eq 'ARRAY';
+	return unless @$array_ref > 1;
+	
 	foreach my $array ( @$array_ref )
 		{
 		return unless ref $array eq 'ARRAY';
