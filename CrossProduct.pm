@@ -1,11 +1,11 @@
 package Set::CrossProduct;
-# $Id: CrossProduct.pm,v 1.6 2005/03/12 04:33:56 comdog Exp $
+# $Id: CrossProduct.pm,v 1.8 2006/05/18 01:48:10 comdog Exp $
 use strict;
 
 use subs qw();
 use vars qw( $VERSION );
 
-( $VERSION ) = q$Revision: 1.6 $ =~ m/ (\d+ \. \d+) /gx;
+( $VERSION ) = q$Revision: 1.8 $ =~ m/ (\d+ \. \d+) /gx;
 
 =head1 NAME
 
@@ -75,7 +75,7 @@ tuples shown:
 	( b, 2, foo )
 	( b, 2, bar )
 	( b, 3, foo )
-	( b, 3, bar )
+	( b, 3, bar ) 
 	( c, 1, foo )
 	( c, 1, bar )
 	( c, 2, foo )
@@ -474,7 +474,7 @@ brian d foy, C<< <bdfoy@cpan.org> >>
 
 =head1 COPYRIGHT
 
-Copyright 2001-2005, brian d foy.
+Copyright 2001-2006, brian d foy.
 
 This package falls under the same terms as Perl itself.
 
