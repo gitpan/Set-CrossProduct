@@ -1,11 +1,11 @@
 package Set::CrossProduct;
-# $Id: CrossProduct.pm,v 1.8 2006/05/18 01:48:10 comdog Exp $
+# $Id: CrossProduct.pm,v 1.9 2007/01/10 04:43:10 comdog Exp $
 use strict;
 
 use subs qw();
 use vars qw( $VERSION );
 
-( $VERSION ) = q$Revision: 1.8 $ =~ m/ (\d+ \. \d+) /gx;
+( $VERSION ) = q$Revision: 1.9 $ =~ m/ (\d+ \. \d+) /gx;
 
 =head1 NAME
 
@@ -472,11 +472,12 @@ members of the project can shepherd this module appropriately.
 
 brian d foy, C<< <bdfoy@cpan.org> >>
 
-=head1 COPYRIGHT
+=head1 COPYRIGHT AND LICENSE
 
-Copyright 2001-2006, brian d foy.
+Copyright (c) 2001-2007 brian d foy.  All rights reserved.
 
-This package falls under the same terms as Perl itself.
+This program is free software; you can redistribute it and/or modify
+it under the same terms as Perl itself.
 
 =cut
 
