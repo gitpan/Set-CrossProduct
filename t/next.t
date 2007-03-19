@@ -1,4 +1,4 @@
-# $Id: next.t,v 1.1 2004/09/08 05:17:02 comdog Exp $
+# $Id: next.t 1455 2004-09-08 05:17:03Z comdog $
 BEGIN { $| = 1; print "1..7\n"; }
 END {print "not ok 1\n" unless $loaded;}
 use Set::CrossProduct;

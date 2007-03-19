@@ -1,4 +1,4 @@
-# $Id: tuple.t,v 1.1 2004/09/08 05:17:03 comdog Exp $
+# $Id: tuple.t 1455 2004-09-08 05:17:03Z comdog $
 BEGIN { $| = 1; print "1..14\n"; }
 END {print "not ok 1\n" unless $loaded;}
 use Set::CrossProduct;
