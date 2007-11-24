@@ -1,12 +1,14 @@
 package Set::CrossProduct;
-# $Id: CrossProduct.pm 2291 2007-06-20 15:40:09Z comdog $
+# $Id: CrossProduct.pm 2435 2007-11-24 11:30:47Z comdog $
 use strict;
+
+use warnings;
+no warnings;
 
 use subs qw();
 use vars qw( $VERSION );
 
-( $VERSION ) = 1.92;
-#q$Revision: 2291 $ =~ m/ (\d+ \. \d+) /gx;
+( $VERSION ) = 1.93;
 
 =head1 NAME
 
