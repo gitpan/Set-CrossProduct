@@ -1,4 +1,3 @@
-# $Id: load.t 1455 2004-09-08 05:17:03Z comdog $
 BEGIN {
 	@classes = qw(Set::CrossProduct);
 	}

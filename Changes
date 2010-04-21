@@ -1,4 +1,11 @@
 
+1.94 - Wed Apr 21 17:08:28 2010
+	* Fix RT #55062: The reset_cursor method was not clearing the
+	done flag that told the iterator there were no more elements.
+	* Fix random(), which was using the current position rather 
+	than the maximum position as the upper limit on the index.
+	* This is now in Github.
+
 1.93 - Sat Nov 24 05:31:44 2007
 	* cleanups for the move from CVS to SVN
 	* added the cross(1) program to use this from the command
@@ -22,10 +29,10 @@
 	* Updated distribution, pod coverage tests, and copyright.
 	There aren't any code changes so you don't need to upgrade.
 
-1.6 - Fri Mar 11 22:34:59 2005
+1.06 - Fri Mar 11 22:34:59 2005
 	* Added POD coverage tests, fixed issues
 	* no code changes: no need to upgrade
 
-1.5 - Wed Sep  8 01:18:01 2004
+1.05 - Wed Sep  8 01:18:01 2004
 	* cleaned up the distribution, added README
 	* no need to upgrade if you already have this module

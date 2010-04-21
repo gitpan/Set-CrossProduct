@@ -1,4 +1,3 @@
-# $Id: error.t 1455 2004-09-08 05:17:03Z comdog $
 BEGIN { $| = 1; print "1..2\n"; }
 END {print "not ok 1\n" unless $loaded;}
 use Set::CrossProduct;
