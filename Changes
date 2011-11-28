@@ -1,10 +1,7 @@
 
-1.94 - Wed Apr 21 17:08:28 2010
-	* Fix RT #55062: The reset_cursor method was not clearing the
-	done flag that told the iterator there were no more elements.
-	* Fix random(), which was using the current position rather 
-	than the maximum position as the upper limit on the index.
-	* This is now in Github.
+1.95 - Mon Nov 28 03:54:35 2011
+	* Fix the synopsis examples
+	* No code changes
 
 1.93 - Sat Nov 24 05:31:44 2007
 	* cleanups for the move from CVS to SVN

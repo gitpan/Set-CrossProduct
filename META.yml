@@ -1,6 +1,6 @@
 --- #YAML:1.0
 name:               Set-CrossProduct
-version:            1.94
+version:            1.95
 abstract:           work with the cross product of two or more sets
 author:
     - brian d foy <bdfoy@cpan.org>
@@ -16,7 +16,7 @@ no_index:
     directory:
         - t
         - inc
-generated_by:       ExtUtils::MakeMaker version 6.50
+generated_by:       ExtUtils::MakeMaker version 6.55_02
 meta-spec:
     url:      http://module-build.sourceforge.net/META-spec-v1.4.html
     version:  1.4
