@@ -4,6 +4,7 @@ lib/Set/CrossProduct.pm
 LICENSE
 Makefile.PL
 MANIFEST
+MANIFEST.SKIP
 META.yml			Module meta-data (added by MakeMaker)
 README
 script/cross
@@ -16,3 +17,4 @@ t/pod_coverage.t
 t/prereq.t
 t/test_manifest
 t/tuple.t
+META.json                                Module JSON meta-data (added by MakeMaker)
